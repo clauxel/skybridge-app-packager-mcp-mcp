@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.skybridgepackager/skybridgepackager-mcp",
-  "description": "Skybridge App Packager MCP is a hosted remote MCP for Skybridge.",
+  "title": "Skybridge App Packager MCP",
+  "description": "Paid remote MCP for Skybridge, structured receipts, usage logs, and audit-ready JSON evidence.",
   "version": "1.0.0",
-  "website_url": "https://skybridgepackager.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/skybridge-app-packager-mcp-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://skybridgepackager.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/skybridge-app-packager-mcp-mcp",
+  "serverCardUrl": "https://skybridgepackager.clauxel.com/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,15 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
   ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "Skybridge App Packager MCP MCP",
-      "server_card_url": "https://skybridgepackager.clauxel.com/server-card.json"
-    }
-  }
+  "tags": [
+    "skybridge",
+    "remote-mcp",
+    "paid-mcp",
+    "ai-agents"
+  ]
 }
