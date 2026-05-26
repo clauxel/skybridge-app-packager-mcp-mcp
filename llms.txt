@@ -1,0 +1,15 @@
+# Skybridge App Packager MCP
+
+Skybridge App Packager MCP is a hosted remote MCP for Skybridge.
+
+Website: https://skybridgepackager.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: Skybridge
+Type: MCP
+Default plan: team
+MCP endpoint: https://skybridgepackager.clauxel.com/mcp
+Server card: https://skybridgepackager.clauxel.com/server-card.json
+Registry name: com.clauxel.skybridgepackager/skybridgepackager-mcp
+Tools: package_skybridge_app, validate_app_schema, run_client_compatibility_test, export_app_manifest
+
+Public boundary: docs-only repository; no production source code or secrets.
